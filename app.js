@@ -13,3 +13,4 @@ app.use(Koa_cors());
 
 //route list
 app.use(require('./core/route/home.route/index').routes())
+app.use(require('./core/route/jokes.route/index').routes())
